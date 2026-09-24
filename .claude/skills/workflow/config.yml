@@ -1,0 +1,23 @@
+# .claude/skills/workflow/config.yml
+# このリポジトリに固有の設定値。setup/init.sh が生成する。
+# SKILL.md の各手順が参照する。値を変更する際はこのファイルのみ更新する。
+# 値は秘匿情報ではないためコミット可。
+
+# GitHub Project
+github:
+  owner: asaty94
+  project_number: 9
+  project_id: PVT_kwHODUx2NM4BkfT0
+
+# Project の Status フィールド
+status_field:
+  id: PVTSSF_lAHODUx2NM4BkfT0zhjPuOo
+  options:
+    draft:       3b715ab6
+    backlog:     6f7795ec
+    in_progress: 57f301b9
+    in_review:   79b8d435
+    done:        2b5d6d5f
+
+# 司令AIのエージェント名（herdr agent send の宛先）
+commander_agent: website-fujii-tadashi
