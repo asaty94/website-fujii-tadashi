@@ -230,6 +230,7 @@ a:hover { text-decoration: underline; }
   border-radius: var(--radius);
   padding: 28px 22px;
   text-align: center;
+  box-shadow: 0 2px 14px rgba(20, 58, 90, 0.05);
   transition: transform .2s, box-shadow .2s, border-color .2s;
 }
 .card:hover { transform: translateY(-4px); box-shadow: var(--shadow); border-color: var(--gold); text-decoration: none; }
